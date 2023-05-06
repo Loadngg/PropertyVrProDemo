@@ -1,0 +1,12 @@
+:root {
+    --color-background: hsla(0, 0, 95, 1);
+
+    --color-text:  hsla(60, 0, 10, 1);
+    --color-text-alpha-7:  hsla(60, 0, 10, .7);
+
+    --color-gray-300: hsla(67, 1, 74, 1); 
+    --color-gray-900: hsla(56, 0, 24, 1);
+
+    --color-orange-600: hsla(22, 55, 66, 1);
+    --color-orange-900: hsla(28, 62, 60, 1);
+}
