@@ -186,3 +186,10 @@ section:first-child {
     align-items: center;
     gap: 1rem; 
 }
+
+.slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px 30px 0px;
+	z-index: 10;
+}

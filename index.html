@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/color.css">
     <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/utils.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" type="text/css" href="assets/libs/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="assets/libs/slick/slick-theme.css"/>
@@ -36,12 +37,10 @@
                     </a>
                   
                     <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-item" href="#about">О проекте</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#galery">Галерея</a>
-                        </li>
+                        <li><a class="dropdown-item" href="#about">О проекте</a></li>
+                        <li><a class="dropdown-item" href="#galery">Галерея</a></li>
+                        <li><a class="dropdown-item" href="#land">Благоустройство</a></li>
+                        <li><a class="dropdown-item" href="#uniq">Уникальность</a></li>
                     </ul>
                   </div>
                 <a href="#3D" class="nav__link">3D-просмотр</a>
@@ -59,9 +58,9 @@
 <main class="page" id="page">
     <section class="intro" id="intro">
         <div class="container">
-            <div class="intro__inner">
+            <div class="intro__inner radius-20">
                 <div class="intro__top">
-                    <p class="intro__uptitle">Жилищный комплекс виртуальный</p>
+                    <p class="subtitle subtitle--light">Жилищный комплекс виртуальный</p>
                     <h1 class="intro__title">Качество и удобство — в приоритете!</h1>
                 </div>
                 <div class="intro__bottom">
@@ -74,7 +73,7 @@
     <section class="about" id="about">
         <div class="container container--small">
             <div class="about__inner">
-                <h2 class="about__title title">О проекте</h2>
+                <h2 class="title">О проекте</h2>
                 <div class="about__text">
                     <div class="about__column about__column--left">
                         <p class="">Жилой комплекс «Берёзка» расположен в экологически чистом районе Тёплый Стан. Район лишен промышленных предприятий и насыщен зеленью. Территория комплекса защищена от шума города и пригодна для отдыха. Вокруг ландшафтный заказник «Теплый Стан», природный парк «Битцевский лес» и «Теплостанский пруд». При этом работают детсады, школы, медицинские центры, магазины, крупные торговые комплексы, кафе, рестораны и прочие необходимые для комфортной жизни объекты.</p>
@@ -104,12 +103,60 @@
     <section class="media__slider" id="galery">
         <div class="container">
             <div class="media__slider__inner">
-                <img src="https://place-hold.it/1920x1080" alt="" class="media__slider__image">
-                <img src="https://place-hold.it/1920x1080" alt="" class="media__slider__image">
-                <img src="https://place-hold.it/1920x1080" alt="" class="media__slider__image">
+                <div class="media__slider__item">
+                    <img src="https://place-hold.it/1920x1080" alt="" class="photo media__slider__image">
+                    <span class="subtitle subtitle--light">Жилой комплекс "Lorem Ipsum 1"</span>
+                </div>
+                <div class="media__slider__item">
+                    <img src="https://place-hold.it/1920x1080" alt="" class="photo media__slider__image">
+                    <span class="subtitle subtitle--light">Жилой комплекс "Lorem Ipsum 2"</span>
+                </div>
+                <div class="media__slider__item">
+                    <img src="https://place-hold.it/1920x1080" alt="" class="photo media__slider__image">
+                    <span class="subtitle subtitle--light">Жилой комплекс "Lorem Ipsum 3"</span>
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="land" id="land">
+        <div class="container container--small">
+            <div class="land__inner">
+                <h2 class="title title--small">Благоустройство</h2>
+                <p class="subtitle">
+                    Внутренний двор — это комплексное решение, являющееся и мини-парком, и местом для отдыха, и игровой зоной. Двор — то место, где каждый житель найдёт свой кусочек комфорта.
+                </p>
+                <div class="land__photos">
+                    <div class="land__photo__item">
+                        <img src="https://place-hold.it/600x800" alt="" class="photo radius-10 land__photo">
+                        <span>Ландшафтный дизайн во дворе</span>
+                    </div>
+                    <div class="land__photo__item">
+                        <img src="https://place-hold.it/600x800" alt="" class="photo radius-10 land__photo">
+                        <span>Ландшафтный дизайн во дворе</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <secttion class="uniq" id="uniq">
+        <div class="container container--small">
+            <div class="uniq__inner">
+                <div class="uniq__left">
+                    <img src="https://place-hold.it/1920x1080" alt="" class="photo radius-10 uniq__photo">
+                    <span class="subtitle">Идеальный для проживания район
+                        Идеальный для проживания район</span>
+                </div>
+                <div class="uniq__right">
+                    <h2 class="title title--small">Уникальность</h2>
+                    <p class="subtitle">
+                        Сочетание лучших решений формирует неповторимый образ идеального для проживания района. Места общего пользования, эксплуатируемые кровли, прогулочные зоны, коворкинги и объекты Family-space создаются для того, чтобы соседи становились друзьями.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </secttion>
 </main>
 
 <script type="text/javascript" src="assets/libs/jquery-1.11.0.min.js"></script>
