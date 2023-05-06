@@ -9,11 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <link href="assets/libs/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/color.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/utils.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/libs/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/libs/slick/slick-theme.css"/>
 
     <title>Недвижимость VrPro Demo</title>
 </head>
@@ -25,7 +30,20 @@
             <div class="header__logo">VrPro</div>
 
             <nav class="nav" id="nav">
-                <a href="#about" class="nav__link">О проекте</a>
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        О проекте
+                    </a>
+                  
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="#about">О проекте</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#galery">Галерея</a>
+                        </li>
+                    </ul>
+                  </div>
                 <a href="#3D" class="nav__link">3D-просмотр</a>
                 <a href="#panorama" class="nav__link">Панорамный просмотр</a>
                 <a href="#VR" class="nav__link">VR</a>
@@ -82,8 +100,22 @@
             </div>
         </div>
     </section>
+
+    <section class="media__slider" id="galery">
+        <div class="container">
+            <div class="media__slider__inner">
+                <img src="https://place-hold.it/1920x1080" alt="" class="media__slider__image">
+                <img src="https://place-hold.it/1920x1080" alt="" class="media__slider__image">
+                <img src="https://place-hold.it/1920x1080" alt="" class="media__slider__image">
+            </div>
+        </div>
+    </section>
 </main>
 
-<script src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/libs/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="assets/libs/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/libs/slick/slick.min.js"></script>
+<script type="text/javascript" src="assets/libs/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
     margin-bottom: 1.5rem;
 }
 
-li::before {
+.about__list__item::before {
     display: inline-block;
     content: "";
     background-color: var(--color-orange-900);

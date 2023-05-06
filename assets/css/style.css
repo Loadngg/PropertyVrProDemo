@@ -67,3 +67,10 @@
     font-size: 1rem;
     margin-bottom: 0.7rem;
 }
+
+/* Slider */
+.slick-list { border-radius: 20px; }
+.media__slider__image {
+    object-fit: cover;
+    width: 100%;
+}

@@ -62,3 +62,29 @@ for (let i = 0; i < navLinks.length; i++) {
         header.classList.remove('active');
     })
 }
+
+// slick
+$(document).ready(function(){
+	$('.media__slider__inner').slick({
+		arrows:false,
+		dots:false,
+		slidesToShow:1,
+		autoplay:true,
+		speed:1000,
+		autoplaySpeed:2000,
+		// responsive:[
+		// 	{
+		// 		breakpoint: 768,
+		// 		settings: {
+		// 			slidesToShow:2
+		// 		}
+		// 	},
+		// 	{
+		// 		breakpoint: 550,
+		// 		settings: {
+		// 			slidesToShow:1
+		// 		}
+		// 	}
+		// ]
+	});
+});
