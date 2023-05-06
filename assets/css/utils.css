@@ -18,7 +18,13 @@
 
 .subtitle.subtitle--light { font-weight: 300; }
 
-.about__list__item::before {
+.photo {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.list__item::before {
     display: inline-block;
     content: "";
     background-color: var(--color-orange-900);
@@ -29,8 +35,18 @@
     margin-right: 1rem;
 }
 
-.photo {
-    width: 100%;
-    height: inherit;
-    object-fit: cover;
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.list__item { 
+    display: flex; 
+    gap: .7rem;
+}
+
+.list__item__uptitle {
+    font-weight: 700;
+    font-size: 1rem;
 }

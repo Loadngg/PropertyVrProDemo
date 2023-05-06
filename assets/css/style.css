@@ -50,23 +50,10 @@
     padding: 0 2rem 0 0; 
 }
 
-.about__list {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.about__list__item { display: flex; }
-
-.about__list__item__uptitle {
-    font-weight: 700;
-    font-size: 1rem;
-    margin-bottom: 0.7rem;
-}
-
 /* Slider */
 .slick-list { border-radius: 20px; }
-.media__slider__image { margin-bottom: 1rem; }
+.slick-list .photo { border-radius: 20px; }
+.slider__image { margin-bottom: 1rem; }
 
 /* Land */
 .land__inner { width: 70%; }
@@ -84,7 +71,7 @@
 
 .land__photo { margin-bottom: 1rem; }
 
-/* Uniq */
+/* Uniq and terrace (it`s equal) */
 .uniq__inner { 
     display: flex; 
     text-align: left;
@@ -96,3 +83,32 @@
     width: 30%;
     margin-left: 6rem;
 }
+
+/* Roof */
+.roof__inner { 
+    display: flex; 
+    text-align: left;
+}
+
+.roof__left { 
+    width: 30%; 
+    margin-right: 6rem;
+}
+
+.roof__left .subtitle { margin-bottom: 1rem; }
+
+.roof__photo { margin-bottom: 2rem; }
+.roof__right { width: 70%; }
+
+/* Wanna Buy */
+.wanna__inner {
+    display: flex;
+    text-align: left;
+}
+
+.wanna__left {
+    width: 40%; 
+    margin-right: 6rem;
+}
+
+.wanna__right { width: 60%; }
