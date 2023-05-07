@@ -208,3 +208,11 @@ iframe {
 	margin: -30px 30px 0px;
 	z-index: 10;
 }
+
+/* Footer */
+.footer__inner { text-align: left; }
+
+.footer__subtitle {
+    color: var(--color-gray-300);
+    font-size: .7rem;
+}

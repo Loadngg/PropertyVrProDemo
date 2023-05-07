@@ -1,6 +1,5 @@
 /* Intro */
 .intro {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -9,7 +8,6 @@
 }
 
 .intro__inner {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
@@ -28,21 +26,14 @@
     box-shadow: inset 0 0 0 1000px var(--color-text-alpha-7);
 }
 
-.intro__title {
-    font-size: 2.5rem;
-    font-weight: 700;
-}
-
+.intro__title { font-size: 2.5rem; }
 .intro .subtitle { text-align: center; }
 
 /* About */
-.about__text { display: flex; }
-.about__column { text-align: left; }
 .about__column--right { width: 30%; }
 .about__text .button { align-self: flex-start; }
 
 .about__column--left {
-    display: flex;
     flex-direction: column;
     gap: 1rem;
     font-size: 1.1rem;
@@ -59,24 +50,11 @@
 /* Land */
 .land__inner { width: 70%; }
 .land__inner .subtitle { margin-bottom: 2rem; }
-
-.land__photos {
-    display: flex;
-    gap: 1rem;
-}
-
-.land__photo__item { 
-    flex: 1; 
-    text-align: left;
-}
-
+.land__photos { gap: 1rem; }
+.land__photo__item { flex: 1; }
 .land__photo { margin-bottom: 1rem; }
 
 /* Uniq and terrace (it`s equal) */
-.uniq__inner { 
-    display: flex; 
-    text-align: left;
-}
 .uniq__left { width: 70%; }
 .uniq__photo { margin-bottom: 2rem; }
 
@@ -86,27 +64,16 @@
 }
 
 /* Roof */
-.roof__inner { 
-    display: flex; 
-    text-align: left;
-}
-
 .roof__left { 
     width: 30%; 
     margin-right: 6rem;
 }
 
 .roof__left .subtitle { margin-bottom: 1rem; }
-
 .roof__photo { margin-bottom: 2rem; }
 .roof__right { width: 70%; }
 
 /* Wanna Buy */
-.wanna__inner {
-    display: flex;
-    text-align: left;
-}
-
 .wanna__left {
     width: 40%; 
     margin-right: 6rem;
@@ -115,42 +82,20 @@
 .wanna__right { width: 60%; }
 
 /* Location */
-.location__text {
-    display: flex;
-    gap: 5rem;
-}
+.location__text { gap: 5rem; }
 
 .location__item {
     flex: 1;
-
-    display: flex;
     align-items: center;
-    text-align: left;
-
     gap: 2rem;
-
     font-size: 1rem;
 }
 
 /* Contanct */
-.contact__block {
-    display: flex;
-    gap: 6rem;
-}
+.contact__block { gap: 6rem; }
 
 .contact__item {
     flex: 1;
-
-    display: flex;
-    /* align-items: center; */
-    text-align: left;
-
     gap: 2rem;
-
     font-size: 1rem;
 }
-
-/* .contact__item svg {
-    height: 100%;
-    align-self: flex-start;
-} */

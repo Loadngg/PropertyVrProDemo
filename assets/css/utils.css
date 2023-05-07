@@ -77,4 +77,6 @@
 }
 
 /* Utils */
+.text-left { text-align: left; }
+.flexed { display: flex; }
 .bold { font-weight: 700; }
