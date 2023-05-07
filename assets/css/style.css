@@ -39,6 +39,7 @@
 .about__text { display: flex; }
 .about__column { text-align: left; }
 .about__column--right { width: 30%; }
+.about__text .button { align-self: flex-start; }
 
 .about__column--left {
     display: flex;
@@ -112,3 +113,44 @@
 }
 
 .wanna__right { width: 60%; }
+
+/* Location */
+.location__text {
+    display: flex;
+    gap: 5rem;
+}
+
+.location__item {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    gap: 2rem;
+
+    font-size: 1rem;
+}
+
+/* Contanct */
+.contact__block {
+    display: flex;
+    gap: 6rem;
+}
+
+.contact__item {
+    flex: 1;
+
+    display: flex;
+    /* align-items: center; */
+    text-align: left;
+
+    gap: 2rem;
+
+    font-size: 1rem;
+}
+
+/* .contact__item svg {
+    height: 100%;
+    align-self: flex-start;
+} */

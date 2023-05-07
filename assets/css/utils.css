@@ -1,3 +1,4 @@
+/* Titles */
 .title {
     font-weight: 700;
     font-size: 3.3rem;
@@ -18,12 +19,14 @@
 
 .subtitle.subtitle--light { font-weight: 300; }
 
+/* Images */
 .photo {
     width: 100%;
     height: inherit;
     object-fit: cover;
 }
 
+/* List */
 .list__item::before {
     display: inline-block;
     content: "";
@@ -50,3 +53,28 @@
     font-weight: 700;
     font-size: 1rem;
 }
+
+/* Button */
+.button {
+    display: inline-block;
+    padding: 8px 25px;
+    -webkit-font-smoothing: inherit;
+    font: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: var(--color-gray-900);
+    color: var(--color-gray-100);
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    border-radius: 20px;
+
+    transition: background-color .1s linear;
+}
+
+.button:hover {
+    background-color: var(--color-gray-600);
+}
+
+/* Utils */
+.bold { font-weight: 700; }
