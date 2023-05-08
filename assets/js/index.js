@@ -30,7 +30,7 @@ for (let smoothLink of smoothLinks) {
         const yOffset = -80;
         const id = smoothLink.getAttribute('href');
         const element = document.querySelector(id)
-        const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
 
         window.scrollTo({top: y, behavior: 'smooth'});
     })
