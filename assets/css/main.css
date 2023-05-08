@@ -42,11 +42,6 @@
     padding: 0 2rem 0 0; 
 }
 
-/* Slider */
-.slick-list { border-radius: 20px; }
-.slick-list .photo { border-radius: 20px; }
-.slider__image { margin-bottom: 1rem; }
-
 /* Land */
 .land__inner { width: 70%; }
 .land__inner .subtitle { margin-bottom: 2rem; }

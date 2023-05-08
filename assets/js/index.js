@@ -1,5 +1,5 @@
 // Scroll Top on reload
-// window.onbeforeunload = () => window.scrollTo(0, 0);
+window.onbeforeunload = () => window.scrollTo(0, 0);
 
 // Sticky header
 let header = document.getElementById('header');
@@ -62,24 +62,3 @@ for (let i = 0; i < navLinks.length; i++) {
         header.classList.remove('active');
     })
 }
-
-// slick
-$(document).ready(function(){
-	$('.media__slider__inner').slick({
-		arrows:true,
-		dots:true,
-		slidesToShow:1,
-		autoplay:true,
-		speed:1000,
-		autoplaySpeed:2000
-	});
-
-    $('.wanna__slider__inner').slick({
-		arrows:true,
-		dots:true,
-		slidesToShow:1,
-		autoplay:true,
-		speed:500,
-		autoplaySpeed:2000
-	});
-});
