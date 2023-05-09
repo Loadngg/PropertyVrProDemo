@@ -85,9 +85,9 @@ iframe {
 .header__inner {
     position: relative;
 
-    display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 3rem;
 }
 
 .header__logo { font-size: 1.2rem; }
@@ -190,9 +190,14 @@ iframe {
 
 .nav__link:hover:after { opacity: 1; }
 
-.nav { 
+.nav, .order__call, .nav__links { 
     align-items: center;
     gap: 1rem; 
+}
+
+.nav { 
+    flex: 1;
+    justify-content: space-between;
 }
 
 .nav .dropdown-toggle {

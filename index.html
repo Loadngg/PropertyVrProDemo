@@ -27,30 +27,37 @@
 
 <header class="header" id="header">
     <div class="container">
-        <div class="header__inner">
+        <div class="header__inner flexed">
             <div class="header__logo">VR PRO</div>
 
             <nav class="nav" id="nav">
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Главная
-                    </button>
-                    
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="index.html#intro">Главная</a></li>
-                        <li><a class="dropdown-item" href="index.html#about">О проекте</a></li>
-                        <li><a class="dropdown-item" href="index.html#galery">Галерея</a></li>
-                        <li><a class="dropdown-item" href="index.html#land">Благоустройство</a></li>
-                        <li><a class="dropdown-item" href="index.html#uniq">Уникальность</a></li>
-                        <li><a class="dropdown-item" href="index.html#roof">Эксплуатируемая крыша</a></li>
-                        <li><a class="dropdown-item" href="index.html#terrace">Терраса</a></li>
-                        <li><a class="dropdown-item" href="index.html#location">Расположение</a></li>
-                        <li><a class="dropdown-item" href="index.html#contact">Контакты</a></li>
-                    </ul>
+                <div class="flexed nav__links">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Главная
+                        </button>
+                        
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html#intro">Главная</a></li>
+                            <li><a class="dropdown-item" href="index.html#about">О проекте</a></li>
+                            <li><a class="dropdown-item" href="index.html#galery">Галерея</a></li>
+                            <li><a class="dropdown-item" href="index.html#land">Благоустройство</a></li>
+                            <li><a class="dropdown-item" href="index.html#uniq">Уникальность</a></li>
+                            <li><a class="dropdown-item" href="index.html#roof">Эксплуатируемая крыша</a></li>
+                            <li><a class="dropdown-item" href="index.html#terrace">Терраса</a></li>
+                            <li><a class="dropdown-item" href="index.html#location">Расположение</a></li>
+                            <li><a class="dropdown-item" href="index.html#contact">Контакты</a></li>
+                        </ul>
                     </div>
-                <a href="home.html" class="nav__link">3D-просмотр</a>
-                <a href="#panorama" class="nav__link">Панорамный просмотр</a>
-                <a href="vr.html" class="nav__link">VR</a>
+                    <a href="home.html" class="nav__link">3D-просмотр</a>
+                    <a href="#panorama" class="nav__link">Панорамный просмотр</a>
+                    <a href="vr.html" class="nav__link">VR</a>
+                </div>
+
+                <div class="flexed order__call">
+                    <a href="tel:+74958857333" class="nav__link">+7 (495) 885-73-33</a>
+                    <a id="form-button" class="button">Заказать звонок</a>
+                </div>
             </nav>
 
             <button class="nav-toggle" id="nav_toggle" type="button">
