@@ -323,11 +323,30 @@
     </div>
 </footer>
 
+<div class="overflow hidden transparent" id="form-overflow">
+    <div class="container container--modal">
+        <div class="overflow__inner radius-10">
+            <h2 class="title">Заявка</h2>
+            <form action method="post" id="form" class="form">
+                <input name="name" type="text" class="form__input" placeholder="Имя" maxlength="30">
+                <input name="email" type="text" class="form__input" placeholder="Email" maxlength="30">
+                <input name="tel" type="text" class="form__input" placeholder="Телефон" maxlength="12">
+                <textarea name="message" size="40" rows="3" class="form__input" placeholder="Сообщение"></textarea>
+            </form>
+            <button id="send-form" class="button mt-3 w-100">Отправить</button>
+        </div>
+    </div>
+    <div class="overflow__close" onclick="hideOverflow()">
+        <img src="assets/img/close.svg" alt="Закрыть">
+    </div>
+</div>
+
 <script type="text/javascript" src="assets/libs/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="assets/libs/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="assets/libs/slick/slick.min.js"></script>
 <script type="text/javascript" src="assets/libs/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="assets/js/index.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/modal.js"></script>
 </body>
 </html>

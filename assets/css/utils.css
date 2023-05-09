@@ -68,6 +68,11 @@
     text-align: center;
     outline: none;
     border-radius: 20px;
+    border: transparent;
+
+    -webkit-box-shadow: 4px 4px 8px 0px var(--color-gray-300);
+    -moz-box-shadow: 4px 4px 8px 0px var(--color-gray-300);
+    box-shadow: 4px 4px 8px 0px var(--color-gray-300);
 
     transition: background-color .1s linear;
 }
