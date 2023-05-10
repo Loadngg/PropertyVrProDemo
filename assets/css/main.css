@@ -5,6 +5,7 @@
     width: 100%;
     height: 100vh;
     position: relative;  
+    padding: 0 2rem !important;
 }
 
 .intro__inner {
@@ -23,7 +24,7 @@
     background: url("../img/3.png") center no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
-    box-shadow: inset 0 0 0 1000px var(--color-text-alpha-7);
+    box-shadow: inset 0 0 0 100000px var(--color-text-alpha-7);
 }
 
 .intro__title { font-size: 2.5rem; }
